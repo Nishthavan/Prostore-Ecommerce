@@ -10,18 +10,19 @@
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server \" \"npm run client \"",
     "data:import": "node backend/seeder",
-    "data:destroy": "node backend/seeder -d"
+    "data:destroy": "node backend/seeder -d",
+    "buildd":"npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nishthavan/MERN-Ecommerce.git"
+    "url": "git+https://github.com/Nishthavan/PROSTOREDEPLOY.git"
   },
   "author": "Nishthavan Dahiya",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Nishthavan/MERN-Ecommerce/issues"
+    "url": "https://github.com/Nishthavan/PROSTOREDEPLOY/issues"
   },
-  "homepage": "https://github.com/Nishthavan/MERN-Ecommerce#readme",
+  "homepage": "https://github.com/Nishthavan/PROSTOREDEPLOY#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
